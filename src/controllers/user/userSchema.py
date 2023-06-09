@@ -9,4 +9,3 @@ class AuthRegisterDetails(BaseModel):
 class AuthLoginDetails(BaseModel):
     username: str
     password: str
-    role:str
